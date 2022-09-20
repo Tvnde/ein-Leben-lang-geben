@@ -1,0 +1,180 @@
+.waitlist {
+    background: #1A0224;/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+
+    .waitlistContainer {
+        width: 100%;
+
+        .waitlist-content {
+            display: flex;
+            flex-direction: row;
+            padding: 5%;
+
+
+            .content-left {
+                flex: 1;
+                padding-top: 3%;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: space-between;
+                position: relative;
+
+                .top-text {
+                    font-family: 'ClashDisplay Light';
+                    color: white;
+                    font-size: 42px;
+                    margin-bottom: 3%;
+
+                    .content-bold {
+                        font-family: 'ClashDisplay Bold';
+                    }
+                }
+
+                .middle-text {
+                    font-family: 'Gordita';
+                    color: white;
+                    font-size: 15px;
+                    margin-bottom: 12%;
+                    text-align: justify;
+                    width: 70%;
+                }
+
+                .bottom-waitlist {
+                    width: 100%;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: flex-start;
+                    align-items: center;
+
+                    .formInput {
+                        position: relative;
+                        flex: 1.5;
+
+                        .waitlist-input {
+                            width: 85%;
+                            height: 100%;
+                            color: white;
+                            background-color: rgba(255, 255, 255, 0.377);
+                            border: 2px solid transparent;
+                            outline: none;
+                            padding: 0.8rem;
+                            font-family: 'ClashDisplay';
+                            border-radius: 4px;
+                            margin-right: 3%;
+
+                            &:hover {
+                                border-color: white;
+                            }
+
+                            &:focus {
+                                border-color: white;
+                            }
+                        }
+
+                        .waitlist-input:focus ~ .waitlist-label,
+                        .waitlist-input:not(:placeholder-shown).waitlist-input:not(:focus) ~.waitlist-label {
+                            top: -0.5rem;
+                            font-size: 0.8rem;
+                            left: 0.8rem;
+                            background-color: #1A0224;
+                        }
+
+                        .waitlist-label {
+                            position: absolute;
+                            top: 0.8rem;
+                            left: 0.8rem;
+                            font-family: 'ClashDisplay';
+                            padding: 0 0.5rem;
+                            color: white;
+                            cursor: text;
+                            transition: top 200ms ease-in,
+                                        left 200ms ease-in,
+                                        font-size 200ms ease-in;
+                        }
+                    }
+
+                    .waitlist-button {
+                        flex: 1;
+
+                        button {
+                            width: 60%;
+                            height: 100%;
+                            padding: 0.8rem;
+                            font-family: 'ClashDisplay Bold';
+                            color: white;
+                            background-color: #5C0088;
+                            border: none;
+                            outline: none;
+                            border-radius: 4px;
+                        }
+                    }
+                }
+            }
+
+            .content-right {
+                flex: 1;
+
+                .content-right-container {
+                    position: relative;
+
+                    .first-writing, .second-writing, .third-writing, .fourth-writing {
+                        color: white;
+                        font-family: 'ClashDisplay';
+                        z-index: 4;
+                        position: absolute;
+                    }
+                    .first-writing {
+                        top: 50px;
+                        left: 180px;
+                        font-weight: 600;
+                    }
+                    .second-writing {
+                        top: 220px;
+                        left: -160px;
+                        font-weight: 600;
+                    }
+
+                    .third-writing {
+                        top: 250px;
+                        right: -20px;
+                        font-weight: 600;
+                    }
+
+                    .fourth-writing {
+                        top: 450px;
+                        left: 220px;
+                        font-weight: 600;
+                    }
+                    .top-image {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 40%;
+                        z-index: 0;
+                        img {
+                            max-width: 100%;
+                            height: 100%;
+                            border-radius: 200px;
+                        }
+                    }
+
+                    .bottom-image {
+                        position: absolute;
+                        right: 10%;
+                        top: 200px;
+                        width: 40%;
+                        img {
+                            max-width: 100%;
+                            max-height: 100%;
+                            border-radius: 200px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

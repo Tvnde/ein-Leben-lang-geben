@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,44 @@
   to {
     transform: rotate(360deg);
   }
+}
+ */
+
+
+ @font-face {
+  font-family: 'ClashDisplay';
+  src: url(./assets/fonts/ClashDisplay/Fonts/OTF/ClashDisplay-Regular.otf);
+}
+
+@font-face {
+  font-family: 'ClashDisplay Light';
+  src: url(./assets/fonts/ClashDisplay/Fonts/OTF/ClashDisplay-Light.otf);
+}
+
+@font-face {
+  font-family: 'ClashDisplay Bold';
+  src: url(./assets/fonts/ClashDisplay/Fonts/OTF/ClashDisplay-Bold.otf);
+}
+
+@font-face {
+  font-family: 'Gordita';
+  src: url(./assets/fonts/Gordita/Gordita-Regular.otf);
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+#root {
+  height: 100%;
+}
+
+.app-container {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  height: 100%;
 }
