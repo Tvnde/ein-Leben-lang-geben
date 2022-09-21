@@ -8,6 +8,9 @@ const Waitlist = () => {
     <div className='waitlist'>
         <Navbar/>
         <div className="waitlistContainer">
+                    <div className="union-icon">
+                        <img src="https://krayonstore.s3.amazonaws.com/assets/Union.png" alt="" />
+                    </div>
             <div className="waitlist-content">
                 <div className="content-left">
                     <div className="top-text">
@@ -32,9 +35,11 @@ const Waitlist = () => {
                         <div className="second-writing">Writers & Podcasters</div>
                         <div className="third-writing">Influencers</div>
                         <div className="fourth-writing">YouTubers</div>
+                        <div className="top-border"></div>
                         <div className="top-image">
                             <img src="https://krayonstore.s3.amazonaws.com/assets/jU6Fwi0obarZKwa4uW6eAlZiLRLBIU6GWfeS02yREnxfNiCneJnr5ucOffKhG2hAh9Zo5Nf8hRFYvi20t5MD_EHNhHe23AY3vjs_BMQttgBQOvOqqifW1SjGfJ4r6YUPZg6k25RigFW3uVvse5t2qtrVaIbrTkk%2B1e4pJSU3Tg4yZCMPZACMf3TU1zt9aIhgMC6XfBgkMAYbqHN6_JPDdV+1.png" alt="" />
                         </div>
+                        <div className="bottom-border"></div>
                         <div className="bottom-image">
                             <img src="https://krayonstore.s3.amazonaws.com/assets/pexels-ron-lach-8154662+1.png" alt="" />
                         </div>

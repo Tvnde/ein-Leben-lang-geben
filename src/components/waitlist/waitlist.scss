@@ -7,6 +7,21 @@
 
     .waitlistContainer {
         width: 100%;
+        position: relative;
+
+
+        .union-icon {
+            position: absolute;
+            top: 200px;
+            left: 330px;
+            width: 40px;
+            height: 40px;
+
+            img {
+                max-width: 100%;
+                max-height: 100%;
+            }
+        }
 
         .waitlist-content {
             display: flex;
@@ -112,6 +127,7 @@
                             border-radius: 4px;
                         }
                     }
+
                 }
             }
 
@@ -162,6 +178,17 @@
                         }
                     }
 
+                    .top-border {
+                        position: absolute;
+                        top: 30px;
+                        left: -10px;
+                        width: 230px;
+                        height: 340px;
+                        background-color: transparent;
+                        border: 1px solid white;
+                        border-radius: 150px;
+                    }
+
                     .bottom-image {
                         position: absolute;
                         right: 10%;
@@ -172,6 +199,17 @@
                             max-height: 100%;
                             border-radius: 200px;
                         }
+                    }
+
+                    .bottom-border {
+                        position: absolute;
+                        top: 160px;
+                        right: 4%;
+                        width: 240px;
+                        height: 350px;
+                        background-color: transparent;
+                        border: 1px solid white;
+                        border-radius: 120px;   
                     }
                 }
             }
