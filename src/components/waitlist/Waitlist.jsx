@@ -1,6 +1,8 @@
 import React from 'react'
 import Navbar from '../partials/navbar/Navbar'
 
+import { FacebookOutlined, Instagram, Twitter } from '@mui/icons-material'
+
 import './waitlist.scss'
 
 const Waitlist = () => {
@@ -27,6 +29,12 @@ const Waitlist = () => {
                         <div className="waitlist-button">
                             <button>Join the waitlist</button>
                         </div>
+                    </div>
+
+                    <div className="social-links">
+                        <div className="facebook-icon"><div className="hold-icon"><FacebookOutlined/></div></div>
+                        <div className="instagram-icon"><div className="hold-icon"><Instagram/></div></div>
+                        <div className="twitter-icon"><div className="hold-icon"><Twitter/></div></div>
                     </div>
                 </div>
                 <div className="content-right">
