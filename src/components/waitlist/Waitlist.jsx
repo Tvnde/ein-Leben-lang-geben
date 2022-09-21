@@ -51,6 +51,18 @@ const Waitlist = () => {
                         <div className="bottom-image">
                             <img src="https://krayonstore.s3.amazonaws.com/assets/pexels-ron-lach-8154662+1.png" alt="" />
                         </div>
+                        <div className="first-vector">
+                            <img src="https://krayonstore.s3.amazonaws.com/assets/Vector+1+(3).svg" alt="" />
+                        </div>
+                        <div className="second-vector">
+                            <img src="https://krayonstore.s3.amazonaws.com/assets/Vector+1.svg" alt="" />
+                        </div>
+                        <div className="third-vector">
+                            <img src="https://krayonstore.s3.amazonaws.com/assets/Vector+1+(2).svg" alt="" />
+                        </div>
+                        <div className="fourth-vector">
+                            <img src="https://krayonstore.s3.amazonaws.com/assets/Vector+1+(1).svg" alt="" />
+                        </div>
                     </div>
                 </div>
             </div>
