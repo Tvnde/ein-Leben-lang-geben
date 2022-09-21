@@ -95,7 +95,7 @@
                         .waitlist-input:focus ~ .waitlist-label,
                         .waitlist-input:not(:placeholder-shown).waitlist-input:not(:focus) ~.waitlist-label {
                             top: -0.5rem;
-                            font-size: 0.8rem;
+                            font-size: 0.7rem;
                             left: 0.8rem;
                             background-color: #1A0224;
                         }
@@ -105,6 +105,7 @@
                             top: 0.8rem;
                             left: 0.8rem;
                             font-family: 'ClashDisplay';
+                            font-size: 0.9rem;
                             padding: 0 0.5rem;
                             color: white;
                             cursor: text;
@@ -143,14 +144,14 @@
                     .facebook-icon, .twitter-icon, .instagram-icon {
                         width: 35px;
                         height: 35px;
-                        border: 1px solid white;
+                        border: 1px solid rgba(255, 255, 255, 0.39);
                         border-radius: 50%;
                         display: flex;
                         justify-content: center;
                         align-items: center;
                         
                         .hold-icon {
-                            color: white;
+                            color: rgba(255, 255, 255, 0.76);
                             max-width: 100%;
                             max-height: 100%;
                         }
