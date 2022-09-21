@@ -60,3 +60,9 @@ $breakpoints: (
         display: none;
     }
 }
+
+.top-text {
+    @include md {
+        margin-top: 10%;
+    }
+}
